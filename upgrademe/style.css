@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1201px){
+    body{
+        background-color: cyan;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: greenyellow;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+    body{
+        background-color: yellow;
+ }
+}
+
+
+ @media only screen and (max-width: 768px){
+        body{
+            background-color: red;
+        }
+    
+    }
+@media only screen and (max-width: 468px){
+        body{
+            background-color: blue;
+        }
+    
+  }
+img{
+    max-width: 100%;
+}
+
