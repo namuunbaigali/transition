@@ -1,0 +1,32 @@
+.box{
+    position: relative;
+    background-color: rgb(226, 236, 247);
+    color: white;
+    width: 250px;
+    height: 70px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+p{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box:hover{
+    background-color: red;
+    color: white;
+}

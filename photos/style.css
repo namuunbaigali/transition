@@ -1,0 +1,29 @@
+.container{
+    max-width:900px ;
+    border: 30px solid rgb(117, 235, 117);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100 / 3);
+}
+
+.col-3{
+    width: calc(100% / 3);
+    gap: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    filter:grayscale() ;
+}
+
+img:hover{
+    filter: none ;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+
+}
