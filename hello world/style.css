@@ -1,5 +1,9 @@
-.box{
+section{
+    width:300px ;
     position: relative;
+}
+
+.box{
     background-color: rgb(226, 236, 247);
     color: white;
     width: 250px;
@@ -24,7 +28,9 @@ p{
 p{
     position: absolute;
     right: 0;
+    left: 240px;
     top: 0;
+    bottom: 10px;
 }
 .box:hover{
     background-color: red;

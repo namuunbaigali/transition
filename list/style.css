@@ -1,0 +1,19 @@
+.container{
+    max-width:300px;
+}
+
+li{
+    width: 250px;
+    list-style: none;
+    text-align: center;
+    background-color: aqua;
+    border-top: 2px solid green;
+    padding: 10px;
+    color:rgb(192, 52, 192) ;
+}
+
+li:hover{
+    background-color: coral;
+    font-size: 2rem;
+    transition: 3s;
+}

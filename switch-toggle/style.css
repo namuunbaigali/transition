@@ -1,0 +1,27 @@
+section{
+    max-width: 300px;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.box{
+    background-color: silver;
+    width:200px ;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 50px;
+}
+.switch{
+    width:100px ;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+.box:hover{
+    background-color: blue;
+}
+.switch:hover{
+    width:100px ;
+    transition: right 2s;
+}

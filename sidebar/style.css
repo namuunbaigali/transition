@@ -20,9 +20,9 @@
     filter: opacity(30%);
 }
 
-p{
+/* p{
     display: none;
-}
+} */
 
 p:hover{
     display: block;
